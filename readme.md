@@ -28,6 +28,12 @@ python run_wabcam.py -tf True -n mobilenet_best -v sample/sample_video.mp4
 ## dataset
 
 1. Put face_datasets_5 under folder `data`. The folder structure should look like this:
+a0: Non-Occluded Face
+b1: bottom Occluded face
+c1: upper Occluded face
+bc1: bottom and upper Occluded face
+bg: negative face(background)
+http://www.vision.caltech.edu/xpburgos/ICCV13/#dataset
 ````
 Non-Occluded Face Networks
 -- data
