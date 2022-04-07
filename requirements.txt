@@ -1,0 +1,10 @@
+imgaug
+opencv-python
+numpy
+# tensorflow==2.8.0
+Pillow
+matplotlib
+pytz
+PyYAML
+scikit-learn
+tqdm
