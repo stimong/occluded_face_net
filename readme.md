@@ -1,13 +1,13 @@
-# Non-Occluded Face Networks
+# Occluded Face Networks
 
-This is a Non-Occluded Face classification model. The mobile version can be converted.
+This is a Occluded Face classification model. The mobile version can be converted.
 
 ## Installation
 1. Install Python3.8 and Tensorflow >= 2.8.0
 2. Clone this repository.
 ```
-git clone https://github.com/stimong/Non_occluded_face_net.git
-cd Non_occluded_face_net
+git clone https://github.com/stimong/occluded_face_net.git
+cd occluded_face_net
 ```
 3. Install the dependencies in requirements.txt. Please install additional packages manually.
 ```
@@ -35,7 +35,7 @@ bc1: bottom and upper Occluded face
 bg: negative face(background)
 http://www.vision.caltech.edu/xpburgos/ICCV13/#dataset
 ````
-Non-Occluded Face Networks
+Occluded Face Networks
 -- data
    |-- face_datasets_5
        |-- train
